@@ -1,0 +1,85 @@
+.country img {
+    width: 100px;
+}
+
+table {
+    width: 90%;
+}
+
+table caption {
+    font-size: 1.2em;
+    font-weight: bold;  
+    color: Dimgrey;
+    text-align: center;
+    caption-side: top;
+    padding: 0.5em;
+}
+
+table caption details {
+    font-size: 0.7em;
+    font-weight: normal;
+    text-align: justify;
+}
+
+table caption details summary {
+    text-align: center;
+}
+
+table tr th {
+    text-align: center;
+    padding: 15px;
+}
+
+table tr td {
+    text-align: center;
+    vertical-align:text-top;
+}
+
+table tr td img {
+    margin: 10px;
+    width: 200px;
+}
+
+table tr td details {
+    text-align: left;
+    padding-left: 30%;
+}
+
+main img {
+    width: 500px;
+    text-align: center;
+}
+
+.container {
+    margin: 50px 0px;
+}
+
+.col {
+    padding: 25px;
+}
+
+@media screen and (max-width: 750px) {
+    table tr td img {
+        margin: 10px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    table#student td:nth-child(2), table#student th:nth-child(2) {
+        display: none;
+    }
+    table#student td:nth-child(3), table#student th:nth-child(3) {
+        display: none;
+    }
+    table tr td details {
+        text-align: left;
+        padding-left: 15%;
+    }
+}
+
+@media print {
+    .container {
+        display: block;
+    }
+}

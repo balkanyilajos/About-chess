@@ -1,0 +1,53 @@
+@media screen and (max-width: 800px) {
+    header nav ul li {
+        list-style-type: none;
+        display:block;
+    }
+    main {
+        width: 100%;
+        padding: 0px;
+    }
+    main video, main table {
+        width: 100%;
+    }
+    main img {
+        padding: 20px;
+    }
+    main input[type=text] {
+        width: 100%;
+    }
+    .diagram {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    main, header {
+        width: 90%;
+    }
+    main img {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    main video {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .toRight {
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .fontSmall p {
+        font-size: 0.75em;
+    }
+}

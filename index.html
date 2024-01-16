@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+
+    <link href="default.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" media="print" href="print.css">
+    <title>Kezdőlap - Sakk, mint hobbi</title>
+</head>
+
+<body>
+    <!-- header -->
+    <div class="pageBar"><img src="images/fejlec.png" alt="Logó"></div>
+    <header>
+        <nav class="outOfBlocks">
+            <a href="#content">Ugrás a tartalomra</a>
+        </nav>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="#content" id="current">Főoldal</a></li>
+                <li><a href="./review.html">Áttekintés</a></li>
+                <li><a href="./FIDE.html">FIDE</a></li>
+                <li><a href="./feedback.html">Kapcsolat</a></li>
+            </ul>
+
+        </nav>
+        <hr>
+
+    </header>
+
+    <!-- main -->
+    <main id="content">
+        <article>
+            <h1>A sakk</h1>
+            <br>
+            <p>Üdvözöllek az oldalamon! Célom, hogy felkeltsem az érdeklődésed a sakk iránt. Úgy hiszem, ez az egyik
+                <em>legizgalmasabb hobbi</em>, amit ember kitalált.
+            </p>
+            <p><q>Gondolkodni, alkotni jó, a kreativitás, amit én főként a sakkban élek meg, teljesebbé teheti az
+                    életet.</q> - Polgár Judit</p>
+        </article>
+
+        <!-- körhinta -->
+        <div class="buttonException container d-flex justify-content-around">
+            <div id="Carousel" class="carousel slide" data-bs-ride="carousel">
+                <button class="carousel-control-prev" type="button" data-bs-target="#Carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/carousel/k1.jpg" class="d-block w-100"
+                            alt="Magnus Carlsen és ellenfele sakkoznak egymással">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/carousel/k2.jpg" class="d-block w-100" alt="Sakktábla">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/carousel/k3.jpg" class="d-block w-100"
+                            alt="Beth Harmon - a Queen's Gambit sorozatból - sakkozik">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/carousel/k4.png" class="d-block w-100" alt="Vezér leütése huszárral">
+                    </div>
+                </div>
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#Carousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#Carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#Carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#Carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <div class="sites container fontSmall">
+                <div class="row">
+                    <div class="col">
+                        <h2>Miért érdemes sakkozni?</h2>
+                        <br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-7 col-sm-8 col-12 text-center mx-auto">
+                        <a href="./images/small2.jpg"><img src="./images/thumbnails/small2.jpg"
+                                alt="Beth Harmon - a Queen's Gambit sorozatból - sakkozik"></a>
+                    </div>
+                    <div class="col-xl-8 col-lg-9 col-sm-10 col-12 mx-auto">
+                        <p>Ki ne ismerné a sakkot? Talán <strong>minden idők legnépszerűbb játéka</strong>, mely 1500
+                            éve osztatlan sikert arat minden korosztályban. Sőt, most éli reneszánszát.</p>
+                        <p>Egyre több fiatal kezdett napjainkban érdeklődni a sakk iránt, köszönhetően a <span
+                                lang="en">Queen's Gambit</span> c. filmsorozatnak.</p>
+                        <p>Vajon miért van ez? Mégis mit tesz hozzá a bábuk tologatása az életünkhöz?</p>
+                        <div class="toRight"><button type="button"
+                                onclick="window.location.href='./review.html';">Tovább az áttekintésre</button></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h2>Érdekel már a sakk? Szeretnél profi lenni?</h2>
+                        <br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-7 col-sm-8 col-12 text-center mx-auto">
+                        <a href="./images/small1.jpg"><img src="./images/thumbnails/small1.jpg"
+                                alt="Király eldőlve a sakktáblán"></a>
+                    </div>
+                    <div class="col-xl-8 col-lg-9 col-sm-10 col-12 mx-auto">
+                        <p>A <abbr title="International Chess Federation">FIDE</abbr> egy nemzetközi szervezet, amely
+                            koordinálja <strong>koordinálja</strong> a sakk, mint sportág nemzetközi életét,
+                            <strong>nyilvántartja</strong> és
+                            <strong>minősíti</strong> a sakkversenyzőket, <strong>szervezi</strong> a férfi, női,
+                            ifjúsági és junior
+                            világbajnokságokat, a sakkolimpiákat, kontinensbajnokságokat és egyéb nemzetközi
+                            versenyeket,
+                            <strong>meghatározza a nemzetközileg érvényes szabályokat</strong>.
+                        <p>
+                        <div class="toRight"><button type="button" onclick="window.location.href='./FIDE.html';">Tovább
+                                a
+                                FIDE oldalra</button></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="feedbackMenu">
+        <p>Fel szeretnéd venni velem a kapcsolatot?</p>
+        <button type="button" onclick="window.location.href='./feedback.html';">Visszajelzés küldése</button>
+    </div>
+    <footer>
+        <p>Balkányi Lajos © 2023</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="feedback.css">
+    <link rel="stylesheet" media="print" href="print.css">
+    <title>Kezdőlap - Sakk, mint hobbi</title>
+</head>
+
+<body>
+    <!-- header -->
+    <div class="pageBar"><img src="images/fejlec.png" alt="Logo"></div>
+    <header>
+        <nav class="outOfBlocks">
+            <a href="#content">Ugrás a tartalomra</a>
+        </nav>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Főoldal</a></li>
+                <li><a href="./review.html">Áttekintés</a></li>
+                <li><a href="./FIDE.html">FIDE</a></li>
+                <li><a href="#content" id="current">Kapcsolat</a></li>
+            </ul>
+
+        </nav>
+        <hr>
+
+    </header>
+
+    <!-- main -->
+    <main id="content">
+        <article>
+            <h1>Fel szeretnéd venni a kapcsolatot?</h1>
+            <br>
+            <p>Kérlek, oszd meg a véleményed, hogy jobb lehessen az oldal! </p>
+        </article>
+
+        <form action="mailto:iir2h4@inf.elte.hu" method="post" enctype="text/plain">
+            <fieldset>
+                <label for="cim1"><strong>Név:</strong></label><br>
+                <input type="text" name="nev" id="cim1" size="30" maxlength="50" required><br>
+
+                <label for="cim2"><strong>E-mail cím:</strong></label><br>
+                <input type="text" name="email" id="cim2" size="30" maxlength="50" required><br>
+
+                <p><strong>Visszajelzés típusa:</strong></p>
+                <input type="radio" name="gombok" id="gomb1" checked>
+                <label for="gomb1">Javaslat</label><br>
+                <input type="radio" name="gombok" id="gomb2">
+                <label for="gomb2">Hibajelentés</label><br>
+                <input type="radio" name="gombok" id="gomb3">
+                <label for="gomb3">Egyéb</label><br>
+
+                <label for="cim3"><strong>Visszajelzés:</strong></label><br>
+                <textarea name="visszajelzes" id="cim3" cols="50" rows="5" required></textarea><br>
+
+                <label for="nem_vagyok_robot">Nem vagyok robot:</label>
+                <input type="checkbox" name="robot" value="True" id="nem_vagyok_robot" required><br>
+
+                <input type="reset" name="torol" value="Visszaállítás">
+                <input type="submit" name="kuldes" value="Küldés">
+            </fieldset>
+        </form>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <p>Balkányi Lajos © 2023</p>
+    </footer>
+
+</body>
+
+</html>

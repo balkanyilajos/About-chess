@@ -1,0 +1,23 @@
+
+div.sites div div h2 {
+    padding-top: 1.3em;
+    font-weight: bold;
+    font-style: normal;
+}
+
+div.sites div div {
+    padding: 0.2em;
+    table-layout: auto;
+    font-style: italic;
+    font-weight: normal;
+}
+
+main div#Carousel img {
+    border-radius: 0px;
+}
+
+#Carousel {
+    width: 100%;
+    padding: 2% 0%;
+    margin: 0%;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link href="default.css" rel="stylesheet">
+    <link href="review.css" rel="stylesheet">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" media="print" href="print.css">
+    <title>Kezdőlap - Sakk, mint hobbi</title>
+</head>
+
+<body>
+    <!-- header -->
+    <div class="pageBar"><img src="images/fejlec.png" alt="Logo"></div>
+    <header>
+        <nav class="outOfBlocks">
+            <a href="#content">Ugrás a tartalomra</a>
+        </nav>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Főoldal</a></li>
+                <li><a href="#content" id="current">Áttekintés</a></li>
+                <li><a href="./FIDE.html">FIDE</a></li>
+                <li><a href="./feedback.html">Kapcsolat</a></li>
+            </ul>
+
+        </nav>
+        <hr>
+
+    </header>
+
+    <!-- main -->
+    <main id="content">
+        <h1>Miért érdemes sakkozni?</h1>
+        <br>
+        <a href="./images/the-queens-gambit.jpg"><img src="./images/thumbnails/the-queens-gambit.jpg"
+                alt="Beth Harmon - a Queen's Gambit sorozatból - sakkozik"></a>
+        <p>Ki ne ismerné a sakkot? Talán <strong>minden idők legnépszerűbb játéka</strong>, mely 1500 éve osztatlan sikert arat minden
+            korosztályban. Sőt, most éli reneszánszát.</p>
+        <p>Egyre több fiatal kezdett napjainkban érdeklődni a sakk iránt, köszönhetően a <span lang="en">Queen's Gambit</span> c.
+            filmsorozatnak. Vajon miért van ez? Mégis mit tesz hozzá a bábuk tologatása az életünkhöz?</p>
+        <div class="clear"><br></div>
+        <p>A sakk egyszerre:</p>
+        <ol>
+            <li>játék</li>
+            <li>sport</li>
+            <li>tudomány</li>
+            <li>művészet</li>
+        </ol>
+        <p><strong>Játék</strong>, mert élvezetet nyújt.</p>
+        <p><strong>Sport</strong>, hiszen versenyszerűen is lehet űzni, sakkolimpia is van, illetve komoly fizikai leterheltséget okoz.
+        </p>
+        <p><strong>Tudomány</strong>, mert például orvosi kutatásokhoz, a mesterséges intelligencia fejlődéséhez a sakk is nagyban
+            hozzájárult.</p>
+        <p><strong>Művészet</strong>, hiszen alkotni lehet benne, saját stílust kialakítani, akár felfedezni és megoldani olyan
+            sakkfeladványokat, amelyekre eddig még senki nem volt képes.</p>
+        <figure class="diagram toRight">
+            <a href="./images/diagram.png"><img src="./images/thumbnails/diagram.jpg"
+                    alt="Diagram a sakkozók és nem sakkozók kreativitási indexéről"></a>
+            <figcaption>
+                <details>
+                    <summary>Magyarázat</summary>
+                    A kreativitásteszt körök altesztjében az eredeti és származtatott kreativitási változók
+                    esetében megfigyelhetjük, hogy a sakkozók kreativitási indexe lényegesen magasabb értékeket mutat,
+                    mint a nem sakkozóké.
+                </details>
+            </figcaption>
+        </figure>
+        <p>A sakk az egyik <strong>leghatékonyabb eszköz a demencia kialakulásának megelőzésében</strong>. Időskorban is frissen tartja
+            az elmét, szellemileg kiegyensúlyozza az embert. Rendszeres gyakorlásának <strong>gyógyító hatásai</strong> is vannak: Stroke
+            után javítja a felépülés esélyeit, megakadályozza az Alzheimer-kórt, segít a skizofrénia kezelésében, véd a
+            depressziótól, szorongástól.</p>
+        <p>Jelentősen fejleszti a beszédkészséget, a tanulási képességet. Formálja a személyiséget, képes egy teljesen
+            új szemléletet megtanítani.</p>
+        <p>A sakk révén a játékos megtanulja a küzdeni tudást, az időbeosztást és a szabálykövető magatartást.</p>
+        <p>A sakkozás hozzájárul ahhoz is, hogy megtanuljuk a siker kezelését, és ami szintén nagy kihívás, elviselni a
+            kudarcot.</p>
+        <p>Zárszóként megemlítenék még egy ajándékot, amit a sakktól kaphatunk: <strong><em>a közösséget</em></strong>.</p>
+
+        <div class="center"><video src="./images/Polgar_Judit.mp4" controls poster="./images/Polgar_Judit-frame.jpg"></video></div>
+        <div class="center"><a href="./video.xhtml">Videó felirata ezen a linken elérhető</a></div>
+    </main>
+    <div class="feedbackMenu">
+        <p>Fel szeretnéd venni velem a kapcsolatot?</p>
+        <button type="button" onclick="window.location.href='./feedback.html';">Visszajelzés küldése</button>
+    </div>
+    <footer>
+        <p>Balkányi Lajos © 2023</p>
+    </footer>
+
+</body>
+
+</html>

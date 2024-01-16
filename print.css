@@ -1,0 +1,25 @@
+body {
+    font-size: 12px;
+    background-color: transparent;
+    background: none;
+}
+
+.feedbackMenu, .pageBar, button, .container, #Carousel, footer, header, video, details, table, input[type=checkbox], label[for=nem_vagyok_robot], input[type=reset], input[type=submit], input[type=radio] {
+    display: none;
+}
+
+.sites img {
+    width: 50%;
+}
+
+h1 {
+    font-size: 1.4em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+img {
+    width: 50%;
+}

@@ -1,0 +1,45 @@
+body {
+    background-image: url('./images/bg.jpg');
+    background-repeat: no-repeat;
+} 
+
+main p, main label {
+    margin: 1em 0em 0em 0em;
+}
+
+main input[type=radio] + label {
+    margin: 0px;
+}
+
+main textarea {
+    width: 90%;
+}
+
+main input[type=radio], main input[type=checkbox] {
+    width: 2em;
+    height: 0.7em;
+    accent-color: brown;
+}
+
+main label {
+    text-align: left;
+}
+
+footer {
+    margin: 1.5em 0em 0em 0em;
+}
+
+@media screen and (max-width: 800px) {
+    main {
+        padding: 20px;
+    }
+    header a:link, header a:visited, header a:link:active, header a:visited:active {
+        color: white;
+    }
+    #current {
+        color:white;
+    }
+    main textarea {
+        width: 100%;
+    }
+}

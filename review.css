@@ -1,0 +1,53 @@
+main img {
+    float: left;
+    padding: 0px 15px;
+    width: 43%;
+}
+
+main figure {
+    display: inline-block;
+    margin: 20px;
+    margin-right: 0em;
+}
+
+main figure img {
+    width: 100%;
+    vertical-align: top;
+    float: none;
+}
+
+main figure figcaption {
+    margin-left: 15px;
+    font-size: 0.8em;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    font-style: italic;
+}
+
+.diagram {
+    width: 45%;
+    float: right;
+}
+
+main video {
+    text-align: center;
+    padding-top: 50px;
+    width: 90%;
+    height: 90%;
+}
+
+@media screen and (max-width: 960px) {
+    main img, .diagram {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    main img, .diagram {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+}

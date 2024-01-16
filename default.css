@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Source+Sans+Pro&display=swap');
+
+:root { 
+    --greyBlack:#1f1f1f;
+    --greyBrown:#333333; 
+}
+
+body {
+    background: #fff9f3;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: justify;
+    font-size: 1.6em;
+    margin: 0em;
+    padding: 0em;
+}
+
+/* header */
+header {
+    width: 65%;
+    text-align: left;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.pageBar {
+    width: 100%;
+    height: 5em;
+    text-align: center;
+    margin: auto;
+    background: var(--greyBlack);
+    overflow: visible;
+}
+
+.pageBar img {
+    height: 5em;
+}
+
+header nav ul li {
+    list-style-type: none;
+    padding-right: 0.6em;
+    display: inline;
+}
+
+header a:link, header a:visited, header a:link:active, header a:visited:active {
+    text-decoration: none;
+    color: rgb(42, 40, 40);
+}
+
+.outOfBlocks {
+    position: absolute;
+    left: -9999px;
+}
+
+main a {
+    font-weight: bold;
+}
+
+main a:link {
+    text-decoration:underline;
+    color: brown;
+}
+
+main a:visited {
+    text-decoration:underline;
+    color: #6F4E37;
+}
+
+main a:link:active, main a:visited:active {
+    text-decoration:underline;
+    color: orangered;
+}
+
+#current {
+    color:black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* main */
+main {
+    margin: auto;
+    width: 65%;
+    background: #fff9f3ed;
+    padding: 50px;
+}
+
+main img {
+    border-radius: 10%;
+}
+
+main table {
+    border: 0px;
+    margin: 0px;
+}
+
+.toRight {
+    text-align: right;
+}
+
+main q {
+    font-family: 'Caveat', cursive;
+    font-size: 1.4em;
+}
+
+main h1 {
+    font-size: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+}
+main h2 {
+    font-size: 1.7em;
+    margin: 1.5em 0em 0em 0em;
+    font-weight: bold;
+    display: block;
+}
+
+button:not(div.buttonException button) {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1em;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.2em 0.7em;
+    border-style:dashed;
+    border-radius: 40px;
+    cursor:pointer;
+    color:white;
+    border-color: rgb(150, 150, 150);
+    background-color: var(--greyBrown);
+}
+
+/* footer */
+.feedbackMenu {
+    width: auto;
+    background-color: var(--greyBrown);
+    text-align: center;
+    color: white;
+    margin: 40px 0px 0px 0px;
+    padding: 15px;
+}
+
+.feedbackMenu button {
+    margin: 5px;
+    border-color: black !important;
+    background-color: rgba(143, 171, 220, 0.307) !important;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: auto;
+    margin: 0px;
+    padding: 12px 0px 1px 0px;
+}
+
+.clear {
+    height: 5px;
+    clear: both;
+}
+
+.sites img {
+    width: 100%;
+    border-radius: 10%;
+}
+
+.center {
+    text-align: center;
+  }
+
+.fontSmall p {
+    font-size: 1em;
+}
